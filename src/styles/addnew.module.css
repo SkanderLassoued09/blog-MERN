@@ -1,0 +1,40 @@
+.formContainer {
+  padding: 1rem;
+}
+.formContainer label {
+  display: block;
+  margin-bottom: 5px;
+}
+.formContainer input {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 4px;
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  border-radius: 4px;
+}
+.formContainer input::placeholder {
+  font-family: "Roboto";
+}
+.formContainer input:focus {
+  outline: none;
+}
+.action button {
+  display: block;
+  margin: 0px auto;
+  font-family: inherit;
+  padding: 8px;
+  border: 0px;
+  background-color: #93faa5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.action button:hover {
+  background-color: #2ecc71;
+}
+.contentContainer,
+.titleContainer,
+.photoContainer,
+.action {
+  margin-top: 1rem;
+}
